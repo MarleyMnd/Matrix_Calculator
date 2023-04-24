@@ -62,7 +62,7 @@ int main() {
     printf("   \033[0;33m5.\033[0;0m Inverse of the matrix.\n");
     printf("   \033[0;33m6.\033[0;0m Exit.\n\n");
     printf("Option: ");
-    
+
     int option;
 
     scanf_s("%d", &option);
