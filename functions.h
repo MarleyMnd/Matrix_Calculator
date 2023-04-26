@@ -5,6 +5,7 @@
 #ifndef MATRIX_CALCULATOR_FUNCTIONS_H
 #define MATRIX_CALCULATOR_FUNCTIONS_H
 
+// Define the maximum size of the matrix
 #define MAX 100
 
 void add_matrices(int matrix[MAX][MAX], int m, int c);

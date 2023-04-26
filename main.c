@@ -5,11 +5,14 @@
 #include <stdio.h>
 #include "functions.h"
 
+// Define the maximum size of the matrix
 #define MAX 100
 
 int main() {
     int r, c;
 
+
+    // Enter the number of row(s)/column(s) of the first matrix
     printf("                              \033[0;31m Matrix Calculator \033[0;0m\n\n");
     printf("This program can add, subtract, multiply or transpose any given matrices.\n\n");
     printf("Please enter the number of rows and columns of the your initial matrix.\n");
@@ -21,6 +24,7 @@ int main() {
 
     int matrix[MAX][MAX];
 
+    // Enter the values of the first matrix
     printf("Please enter the values of the matrix.\n");
     for (int i = 0; i < r; i++) {
         for (int j = 0; j < c; j++) {
@@ -29,10 +33,12 @@ int main() {
         }
     }
 
+    // Clear the screen
     for (int i = 0; i < 20; i++) {
         printf("\n");
     }
 
+    // Display the entered matrix to avoid any mistyping
     printf("\nYour matrix is:\n\n");
     printf("\t ");
     for (int k = 0; k < c; k++) {
@@ -65,8 +71,10 @@ int main() {
 
     int option;
 
+    // Get the user's choice
     scanf_s("%d", &option);
 
+    // Call the appropriate function
     switch (option) {
         case 1:
             add_matrices(matrix, r, c);
