@@ -12,4 +12,4 @@ You just need to run the `main.c` file and follow the instructions.
 - Addition
 - Subtraction
 - Multiplication
-- Inverse + determinant (/!\ Only for 2x2 matrices for the moment)
+- Inverse + determinant <span style= "color:#ff5e3b"> (/!\ Only for 2x2 matrices for the moment) </span>
