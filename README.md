@@ -3,10 +3,10 @@
 ---
 
 ## 📖 Description
-This is a simple matrix calculator that can perform basic operations on matrices.
+This is a simple matrix calculator that can perform ***basic operations*** on matrices.
 
 ## 📦 Installation
-You just need to clone the repository and open it in your IDE. You can also download the zip file and extract it.
+You just need to clone the repository and open it in your IDE. You can also download the .zip file and extract it.
 Be sure a C compiler is installed on your computer.
 
 ## 📝 Usage
